@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingTop="70dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/popbold"
+            android:text="Sign Up"
+            android:textColor="#87D0C9"
+            android:textSize="50dp"></TextView>
+
+        <TextView
+            android:fontFamily="@font/popmedium"
+            android:textSize="20dp"
+            android:text="Welcome!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/email_sign"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/border_form"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:paddingLeft="10dp"></EditText>
+
+        <EditText
+            android:id="@+id/pass_sign"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_form"
+            android:drawableStart="@drawable/ic_baseline_key_24"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"></EditText>
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#87D0C9"
+            android:text="Sign Up"
+            android:textSize="18dp"
+            android:textStyle="bold"></Button>
+
+        <TextView
+            android:id="@+id/toLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:elevation="0dp"
+            android:fontFamily="@font/popbold"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/or_log_in_here"
+            android:textColor="#87D0C9"
+            android:textSize="14sp"
+            app:backgroundTint="#00FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjectAppStickee</string>
+    <string name="deskripsi">deskripsi</string>
+    <string name="or_sign_up_here"><u>or Sign Up here</u></string>
+    <string name="or_log_in_here"><u>or log in here.</u></string>
+</resources>
